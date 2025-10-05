@@ -61,14 +61,14 @@ uv sync
 Примените миграции и запустите сервер разработки:
 
 ```bash
-uv run python manage.py migrate
-uv run python manage.py runserver
+uv run manage.py migrate
+uv run manage.py runserver
 ```
 
 Создайте суперпользователя (для доступа в админку):
 
 ```bash
-uv run python manage.py createsuperuser
+uv run manage.py createsuperuser
 ```
 
 Откройте в браузере: http://127.0.0.1:8000/blog
